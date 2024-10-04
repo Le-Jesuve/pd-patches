@@ -1,4 +1,4 @@
-#N canvas 10 31 1207 317 12;
+#N canvas 0 22 1920 1024 12;
 #X obj 432 599 *~ -0.9 0.9;
 #X obj 453 275 *~;
 #X obj 444 201 osc~ 440;
@@ -165,7 +165,7 @@
 #X obj 462 930 vsl 10 50 0 0.9 0 0 empty empty empty 0 -9 0 12 #fcfcfc #000000 #000000 0 1;
 #X obj 388 830 clip~ -0.9 0.9;
 #X obj 406 1031 *~;
-#X obj 480 1022 vsl 10 50 0 0.9 0 0 empty empty empty 0 -9 0 12 #fcfcfc #000000 #000000 0 1;
+#X obj 493 1003 vsl 10 50 0 0.9 0 0 empty empty empty 0 -9 0 12 #fcfcfc #000000 #000000 0 1;
 #X obj 669 823 delread~ del;
 #X obj 553 761 delwrite~ del 3000;
 #X obj 695 749 *~;
@@ -243,8 +243,8 @@
 #X connect 47 0 87 0;
 #X connect 48 0 61 0;
 #X connect 49 0 50 0;
-#X connect 49 0 87 1;
 #X connect 49 0 119 0;
+#X connect 49 0 87 0;
 #X connect 51 0 50 1;
 #X connect 52 0 50 2;
 #X connect 53 0 55 0;
